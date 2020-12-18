@@ -92,6 +92,7 @@ axs[1].set_ylabel("Amplitude [-]")
 
 fig1.tight_layout()
 fig1.canvas.draw()
+fig1.show()
 
 
 def loop(fig1, axs, xlines, tlines, cosx, cost, nsamp):
@@ -183,5 +184,7 @@ fig3.colorbar(im3)
 
 fig3.tight_layout()
 fig3.show()
+
+input("'Enter' para sair.")
 
 
